@@ -5,6 +5,7 @@ SELECT
   amount_usd,
   store_loc,
   store_id,
-  store_zipcode
+  store_zipcode,
+  agent_created_by_id
 FROM stg_payments_tgt
 WHERE event_date >= DATE('2025-01-01')
