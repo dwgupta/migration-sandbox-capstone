@@ -6,6 +6,7 @@ SELECT
   store_loc,
   store_id,
   store_zipcode,
-  agent_created_by_id
+  agent_created_by_id,
+  agent_created_datetime
 FROM stg_payments_tgt
 WHERE event_date >= DATE('2025-01-01')
