@@ -3,6 +3,7 @@ SELECT
   payment_id,
   event_date,
   amount_usd,
-  store_loc
+  store_loc,
+  store_id
 FROM stg_payments
-WHERE event_date >= DATE('2024-01-01')
+WHERE event_date >= DATE('2025-01-01')
