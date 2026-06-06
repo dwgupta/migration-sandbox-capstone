@@ -4,6 +4,7 @@ SELECT
   event_date,
   amount_usd,
   store_loc,
-  store_id
+  store_id,
+  customer_id
 FROM stg_payments
 WHERE event_date >= DATE('2025-01-01')
